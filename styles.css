@@ -10,9 +10,10 @@ body {
   padding: 0;
 }
 
+/* ADICIONAR IMAGEM LEGAL DE BACKGROUND NO HEADER PRINCIPAL*/
 .header {
   padding: 0 30px 30px 30px;
-  background-image: url("https://s30.postimg.org/ax4mfvj4h/image.png");
+  background-image: url("#adicionar-img-de-bg");
   background-size: cover;
   background-color: black;
 }
@@ -120,9 +121,10 @@ p#about-content {
   box-shadow: 10px 10px 0px -2px rgba(0, 0, 0, 0.34);
 }
 
+/* ADICIONAR IMG DE FUNDO NA SECAO DE CONTATOS*/
 #contact {
   padding: 0 100px;
-  background-image: url("https://s22.postimg.org/est8ejx41/8vu_KEJk.jpg");
+  background-image: url("#");
   background-position: center;
   background-color: black;
   background-size: 100% 100%;
