@@ -143,3 +143,34 @@ p#about-content {
 .contact-ad {
   text-align: center;
 }
+
+
+#portfolio {
+  text-align: center;
+}
+
+.project-item {
+  margin-bottom: 30px;
+}
+
+.project-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+.project-item h3 {
+  margin-top: 10px;
+}
+
+.project-item p {
+  margin-top: 10px;
+}
+
+.project-item a {
+  display: inline-block;
+  margin-top: 10px;
+  
+
+.project-item a:hover {
+  background-color: #45a049;
+}
