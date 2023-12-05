@@ -1,176 +1,38 @@
-@import url(https://fonts.googleapis.com/css?family=Bitter);
+* {
+    margin: 0%;
+    padding: 0%;
+ }
 
-body {
-  font-family: 'Bitter', serif;
-  margin: 0;
-}
+ body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(17, 16, 16);
+    color: white;
+ }
+ nav{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   padding: 22px;
+   background-color: rgb(17, 16, 16);
+   position: fixed;
+   top: 0%;
+   width: 100%;
+ }
 
-.main {
-  margin: 0;
-  padding: 0;
-}
-
-/* ADICIONAR IMAGEM LEGAL DE BACKGROUND NO HEADER PRINCIPAL*/
-.header {
-  padding: 0 30px 30px 30px;
-  background-image: url("#adicionar-img-de-bg");
-  background-size: cover;
-  background-color: black;
-}
-
-.navbar {
-  text-align: center;
-  padding-top: 20px;
-  background-color: transparent;
-  border: 0;
-}
-
-.navbar ul {
-  padding: 0;
-}
-
-.navbar ul li {
-  display: inline;
-  margin: 0 20px;
-}
-
-.navbar ul li a {
-  color: #f2f2f2;
-  text-decoration: none;
-}
-
-.navbar ul li a:hover {
-  color: #0d3e60;
-}
-
-.brand {
-  text-align: center;
-  margin-top: 180px;
-}
-
-.brand img {
-  padding: 0 10px;
-}
-
-.social-nav {
-  text-align: center;
-}
-
-.social-nav li {
-  display: inline;
-  font-size: 40px;
-  margin: 0 20px;
-}
-
-.social-nav a {
-  color: #f2f2f2;
-  text-decoration: none;
-}
-
-.social-nav a:hover {
-  color: #0d3e60;
-}
-
-.record {
-  text-align: center;
-  margin: 100px 0;
-}
-
-.record span {
-  color: #f2f2f2;
-  font-size: 18px;
-}
-
-#about {
-  padding: 20px;
-  text-align: center;
-}
-
-#about h2 {
-  margin-bottom: 30px;
-}
-
-p#about-content {
-  font-size: 20px;
-}
-
-#work-button i {
-  font-size: 40px;
-  margin-right: 10px;
-}
-
-#work-button a {
-  color: #156499;
-  text-decoration: none;
-}
-
-#work-button a:hover {
-  color: #0d3e60;
-}
-
-#portfolio {
-  padding: 0 100px;
-  background-color: #f5f5f5;
-}
-
-.inner {
-  background-color: #fff;
-  padding: 10px;
-  border-radius: 0;
-  border: 0;
-  box-shadow: 10px 10px 0px -2px rgba(0, 0, 0, 0.34);
-}
-
-/* ADICIONAR IMG DE FUNDO NA SECAO DE CONTATOS*/
-#contact {
-  padding: 0 100px;
-  background-image: url("#");
-  background-position: center;
-  background-color: black;
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-}
-
-#contact p {
-  font-size: 20px;
-  color: #fff;
-}
-
-#contact div {
-  margin: 50px 0;
-}
-
-.contact-ad {
-  text-align: center;
-}
-
-
-#portfolio {
-  text-align: center;
-}
-
-.project-item {
-  margin-bottom: 30px;
-}
-
-.project-item img {
-  max-width: 100%;
-  height: auto;
-}
-
-.project-item h3 {
-  margin-top: 10px;
-}
-
-.project-item p {
-  margin-top: 10px;
-}
-
-.project-item a {
-  display: inline-block;
-  margin-top: 10px;
-  
-
-.project-item a:hover {
-  background-color: #45a049;
-}
+ ul{
+   display: flex;
+   align-items: center;
+ }
+ ul li{
+   list-style: none;
+ }
+ ul li a{
+   text-decoration: none;
+   color: white;
+   font-size: 19px;
+   margin-inline: 22px;
+ }
+ ul li a:hover{
+   color: rgb(0, 140, 255);
+   border-bottom: 2px solid rgb(0, 140, 255);
+ }
