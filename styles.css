@@ -36,3 +36,53 @@
    color: rgb(0, 140, 255);
    border-bottom: 2px solid rgb(0, 140, 255);
  }
+
+ #bar{
+  display: none;
+}
+.logo{
+  font-size: 22px;
+}
+.logo span{
+  color: rgb(0, 153, 255);
+}
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 105px;
+}
+.mainText h1{
+  font-size: 70px;
+}
+.mainText h1 span{
+  color: rgb(0, 153, 255);
+}
+.mainText h3{
+  font-size: 28px;
+}
+.mainText p{
+  font-size: 30px;
+}
+
+
+button:hover{
+  border: 2px solid rgb(0, 149, 255);
+  background-color: transparent;
+  cursor: pointer;
+}
+.head{
+  text-align: center;
+  padding: 80px;
+}
+.head span{
+  color: rgb(0, 140, 255);
+}
+.about{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(28, 28, 28);
+  padding: 52px;
+}
