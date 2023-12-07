@@ -94,3 +94,10 @@ button:hover{
   background-color: rgb(28, 28, 28);
   padding: 52px;
 }
+
+.about img{
+  width: 250px;
+  border-radius: 50%;
+  border: 4px solid rgb(0, 136, 255);
+  margin-inline: 65px;
+}
