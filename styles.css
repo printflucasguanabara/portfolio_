@@ -134,3 +134,10 @@ button:hover{
    border-radius: 5px;
    margin-top: 22px;
  }
+
+ .card p{
+  margin-top: 11px;
+}
+.card i{
+      font-size: 26px;
+}
