@@ -150,8 +150,8 @@ button:hover{
   flex-wrap: wrap;
 }
 .workCard{
-  width: 300px;
-  height: 310px;
+  width: 350px;
+  height: 440px;
   background-color: #232323;
   border-radius: 5px;
   margin-inline: 20px;
@@ -203,3 +203,14 @@ button:hover{
   border: none;
   margin-top: 22px;
 }
+
+/*media queries */
+
+@media screen and (max-width:1000px){
+  .main{
+     display: block;
+     text-align: center;
+     margin-top: 155px;
+  }
+}
+
