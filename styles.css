@@ -3,6 +3,10 @@
     padding: 0%;
  }
 
+ ::-webkit-scrollbar {
+  width: 0px;
+}
+
  body {
     font-family: 'Roboto', sans-serif;
     background-color: rgb(17, 16, 16);
@@ -51,6 +55,7 @@
   justify-content: center;
   align-items: center;
   margin-top: 105px;
+  height: 80vh;
 }
 .mainText h1{
   font-size: 70px;
@@ -89,33 +94,40 @@ button:hover{
 
 /* sobre */
 
-.about{
+.about {
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   background-color: rgb(28, 28, 28);
   padding: 52px;
+  text-align: center; /* Center text within .about */
+  height: 50vh;
 }
 
-.about img{
+.about img {
   width: 250px;
   border-radius: 50%;
   border: 4px solid rgb(0, 136, 255);
-  margin-inline: 65px;
+  margin-left: 20px; /* Adjusted margin to provide space on the left of the image */
 }
-.aboutText p{
+
+.aboutText {
+  max-width: 600px; /* Set a max-width for better readability */
+}
+
+.aboutText p {
   margin-top: 22px;
+  color: rgb(218, 218, 218); /* Apply color to all text within .aboutText p */
 }
-.aboutText h2 span{
+
+.aboutText h2 span {
   color: rgb(0, 140, 255);
 }
-.aboutText p span{
-  color: rgb(218, 218, 218);
-}
-.aboutText h2{
+
+.aboutText h2 {
   font-size: 30px;
 }
+
 
 /* habilidades*/
 
