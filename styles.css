@@ -100,7 +100,7 @@ button:hover{
   justify-content: center;
   background-color: rgb(28, 28, 28);
   padding: 52px;
-  text-align: center; /* Center text within .about */
+  text-align: center; 
   height: 50vh;
 }
 
@@ -108,16 +108,16 @@ button:hover{
   width: 250px;
   border-radius: 50%;
   border: 4px solid rgb(0, 136, 255);
-  margin-left: 20px; /* Adjusted margin to provide space on the left of the image */
+  margin-left: 20px; 
 }
 
 .aboutText {
-  max-width: 600px; /* Set a max-width for better readability */
+  max-width: 600px; 
 }
 
 .aboutText p {
   margin-top: 22px;
-  color: rgb(218, 218, 218); /* Apply color to all text within .aboutText p */
+  color: rgb(218, 218, 218); 
 }
 
 .aboutText h2 span {
@@ -215,6 +215,16 @@ button:hover{
   border: none;
   margin-top: 22px;
 }
+
+.footer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 55px;
+  margin-top: 66px;
+  background-color: rgb(52, 51, 51);
+}
+
 
 /*media queries */
 
